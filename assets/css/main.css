@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -121,7 +122,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Lato", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -132,14 +133,23 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		/*border-bottom: dotted 1px rgba(255, 255, 255, 0.5);*/
+		/*font-size: 24px;*/
+		padding: 5px;
 		text-decoration: none;
 		color: inherit;
+		display: inline-block;
+		padding: 0 10px;
+		border-radius: 6px;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-		}
+
+
+	a:hover {
+		background-color: rgba(255, 255, 255, 0.075);
+		transition: background-color 0.9s;
+		/*border-bottom-color: transparent;*/
+	}
 
 	strong, b {
 		color: #ffffff;
@@ -1591,4 +1601,24 @@
 
 		body.is-loading #footer {
 			opacity: 0;
+		}
+
+		/*special*/
+
+		.work-demo{
+			display: flex;
+			justify-content: center;
+			/*color: #f13b42;*/
+		}
+
+		.direct-to-work{
+			text-align: center;
+			font-size: 24px;
+		}
+		.direct-to-work a{
+			padding: 4px 33px;
+		}
+
+		.homepage-link a{
+			font-size: 32px;
 		}
