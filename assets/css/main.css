@@ -1608,8 +1608,21 @@
 		.work-demo{
 			display: flex;
 			justify-content: center;
-			/*color: #f13b42;*/
 		}
+
+		.work-demo a{
+			box-shadow: 1px 2px 3px white;
+		}
+
+		.work-demo a:hover{
+			color: #f13b42;
+			transition: color 0.7s;
+		}
+
+		.work-demo a:active{
+			transform: translateY(2px);
+		}
+
 
 		.direct-to-work{
 			text-align: center;
@@ -1617,8 +1630,24 @@
 		}
 		.direct-to-work a{
 			padding: 4px 33px;
+			box-shadow: 1px 2px 3px white;
+		}
+
+		.direct-to-work a:hover{
+			color: #f13b42;
+			transition: color 0.7s;
+		}
+
+		.direct-to-work a:active{
+			transform: translateY(2px);
 		}
 
 		.homepage-link a{
 			font-size: 32px;
+			margin: 0 8px;
+			box-shadow: 1px 2px 3px white;
+		}
+
+		.homepage-link a:active{
+			transform: translateY(2px);
 		}
