@@ -1234,10 +1234,10 @@
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 10.75rem;
+			height: 10.75rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 1px none;
 			border-radius: 100%;
 		}
 
@@ -1384,8 +1384,8 @@
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 10.75rem;
+				height: 10.75rem;
 				line-height: 4.75rem;
 			}
 
@@ -1622,7 +1622,7 @@
 		}
 
 		.work-demo a:hover{
-			color: #f13b42;
+			color: #5c94bc;
 			transition: color 0.7s;
 		}
 
@@ -1641,7 +1641,7 @@
 		}
 
 		.direct-to-work a:hover{
-			color: #f13b42;
+			color: #5c94bc;
 			transition: color 0.7s;
 		}
 
@@ -1657,4 +1657,45 @@
 
 		.homepage-link a:active{
 			transform: translateY(2px);
+		}
+
+		.profile-picture-wrap{
+			display: flex;
+			justify-content: center;
+
+		}
+
+		.profile-picture{
+			height: 155px;
+			width: 119px;
+			border: 2px solid lightgrey;
+			border-radius: 800%;
+		}
+
+
+		.contact div{
+			display: inline-block;
+		}
+
+		.contact-container{
+			display: flex;
+			justify-content: center;
+			margin: 7px 0;
+		}
+		.contact-title{
+			display: inline-block;
+			font-size: 30px;
+			margin:0 10px;
+		}
+
+		.contact-content{
+			display: inline-block;
+			/*font-family: 'Josefin Slab';*/
+			font-size: 14px;
+			text-transform: lowercase;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 17px;
 		}
