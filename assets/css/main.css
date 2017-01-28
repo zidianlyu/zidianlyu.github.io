@@ -1604,14 +1604,21 @@
 		}
 
 		/*special*/
+		.work-demo-title{
+			font-family: 'Josefin Slab';
+			font-size: 21px;
+			/*font-weight: bold;*/
+		}
 
 		.work-demo{
 			display: flex;
 			justify-content: center;
+			margin: 10px 0;
 		}
 
 		.work-demo a{
 			box-shadow: 1px 2px 3px white;
+			padding: 7px 20px;
 		}
 
 		.work-demo a:hover{
