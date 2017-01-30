@@ -161,7 +161,7 @@
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 12px 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -662,19 +662,20 @@
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
-
-		.image.main {
-			display: block;
-			margin: 2.5rem 0;
+		.image.fit img {
 			width: 100%;
 		}
 
-			.image.main img {
-				width: 100%;
-			}
+		.image.main {
+			display: block;
+			margin: 1.5rem 0;
+			width: 100%;
+		}
+
+		.image.main img {
+			width: 100%;
+			height: 175px;
+		}
 
 		@media screen and (max-width: 736px) {
 
@@ -1604,40 +1605,31 @@
 		}
 
 		/*special*/
-		.work-demo-title{
+
+		/*intros*/
+		.skills{
+			text-align: center;
+		}
+
+		.one-sentence{
+			padding-left: 25px;
+		}
+
+		.one-sentence span{
 			font-family: 'Josefin Slab';
-			font-size: 21px;
-			/*font-weight: bold;*/
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 5px;
 		}
-
-		.work-demo{
-			display: flex;
-			justify-content: center;
-			margin: 10px 0;
-		}
-
-		.work-demo a{
-			box-shadow: 1px 2px 3px white;
-			padding: 7px 20px;
-		}
-
-		.work-demo a:hover{
-			color: #5c94bc;
-			transition: color 0.7s;
-		}
-
-		.work-demo a:active{
-			transform: translateY(2px);
-		}
-
 
 		.direct-to-work{
 			text-align: center;
 			font-size: 24px;
 		}
 		.direct-to-work a{
-			padding: 4px 33px;
-			box-shadow: 1px 2px 3px white;
+			padding: 13px 26px;
+			box-shadow: 0 0 8px white;
 		}
 
 		.direct-to-work a:hover{
@@ -1650,6 +1642,7 @@
 		}
 
 		.homepage-link a{
+			padding: 0 16px;
 			font-size: 32px;
 			margin: 0 8px;
 			box-shadow: 1px 2px 3px white;
@@ -1673,6 +1666,7 @@
 		}
 
 
+		/*contact*/
 		.contact div{
 			display: inline-block;
 		}
@@ -1683,19 +1677,106 @@
 			margin: 7px 0;
 		}
 		.contact-title{
-			display: inline-block;
+			display: flex;
+			align-items: center;
 			font-size: 30px;
 			margin:0 10px;
 		}
 
 		.contact-content{
 			display: inline-block;
-			/*font-family: 'Josefin Slab';*/
-			font-size: 14px;
+			font-size: 18px;
 			text-transform: lowercase;
 			margin: 0;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			padding: 17px;
+			font-family: 'Josefin Slab';
+		}
+
+		/*education*/
+		.edu{
+			padding-bottom: 5px;
+			box-shadow: 0 0 2px;
+			border-radius: 19px;
+			padding: 16px;
+			margin: 25px 0;
+		}
+
+		.edu h4{
+			padding-left: 25px;
+		}
+
+		.edu p{
+			margin: 11px 0;
+			padding-left: 60px;
+			font-size: 15px;
+			font-family: 'Lato';
+			/*font-family: 'Josefin Slab';*/
+		}
+
+		/*projects*/
+		.project{
+			padding-bottom: 5px;
+			box-shadow: 0 0 2px;
+			border-radius: 19px;
+			padding: 16px;
+			margin: 25px 0;
+		}
+
+		.project-icon{
+			width: 55px;
+			border-radius: 7px;
+		}
+
+		.project-top{
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+		}
+		.project-top img{
+			display: inline-block;
+		}
+		.project-top h3{
+			margin: 0;
+			padding-left: 10px;
+			display: inline-block;
+		}
+
+		.project-bottom p{
+			font-family: 'Lato';
+			font-size: 12px;
+			padding-left: 25px;
+		}
+
+		.project-bottom h4{
+			padding-left: 12px;
+			font-size: 11px;
+		}
+
+		.work-demo-title{
+			font-family: 'Josefin Slab';
+			font-size: 21px;
+			/*font-weight: bold;*/
+		}
+
+		.work-demo{
+			display: flex;
+			justify-content: center;
+			margin: 20px 0 0 0;
+		}
+
+		.work-demo a{
+			box-shadow: 1px 2px 3px white;
+			padding: 7px 20px;
+		}
+
+		.work-demo a:hover{
+			color: #5c94bc;
+			transition: color 0.7s;
+		}
+
+		.work-demo a:active{
+			transform: translateY(2px);
 		}
