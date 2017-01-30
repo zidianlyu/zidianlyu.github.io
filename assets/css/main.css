@@ -1612,7 +1612,10 @@
 		}
 
 		.one-sentence{
-			padding-left: 25px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			/*text-align: center;*/
 		}
 
 		.one-sentence span{
