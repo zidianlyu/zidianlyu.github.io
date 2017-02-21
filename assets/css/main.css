@@ -1686,7 +1686,11 @@
 		}
 
 		.profile-icon span{
-			font-size: 83px;
+			font-size: 92px;
+			-webkit-animation-name: spin;
+			-webkit-animation-duration: 0.8s;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-timing-function: linear;
 		}
 
 
@@ -1736,6 +1740,7 @@
 		.edu h4 span{
 			font-size: 25px;
 		}
+
 
 		.edu p{
 			margin: 11px 0;
