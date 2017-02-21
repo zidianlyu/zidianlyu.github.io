@@ -1674,6 +1674,22 @@
 			border-radius: 800%;
 		}
 
+		.profile-icon{
+			height: 120px;
+			width: 120px;
+			color: white;
+			border: 2px solid white;
+			border-radius: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.profile-icon span{
+			font-size: 83px;
+		}
+
+
 
 		/*contact*/
 		.contact div{
@@ -1715,6 +1731,10 @@
 
 		.edu h4{
 			padding-left: 25px;
+		}
+
+		.edu h4 span{
+			font-size: 25px;
 		}
 
 		.edu p{
