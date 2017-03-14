@@ -3,7 +3,7 @@
 ## [Portfolio][portfolio]
 
 [portfolio]:
-https://www.zidianlyu.com
+http://www.zidianlyu.com
 
 ### Full Stack Web Developer
 * San Francisco and Bay Area
