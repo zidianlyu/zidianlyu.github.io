@@ -1,0 +1,80 @@
+/*projects*/
+.project{
+  padding-bottom: 5px;
+  box-shadow: 0 0 2px;
+  border-radius: 19px;
+  padding: 16px;
+  margin: 10px 0;
+}
+
+.project-icon{
+  width: 55px;
+  border-radius: 7px;
+}
+
+.project-top{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.project-top img{
+  display: inline-block;
+}
+.project-top h3{
+  margin: 0;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.project-bottom p{
+  font-family: 'Nunito';
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.project-bottom h4{
+  padding-left: 12px;
+  font-size: 11px;
+}
+
+.work-demo-title{
+  font-family: 'Josefin Slab';
+  font-size: 21px;
+  /*font-weight: bold;*/
+}
+
+.eventboost-color{
+  color: #de6928;
+}
+
+.tfe-color{
+  color: #ffff0d;
+}
+
+.quipt-color{
+  color: #226eb5;
+}
+
+.work-demo-eventboost{
+
+}
+
+.work-demo{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.work-demo a{
+  box-shadow: 1px 2px 3px white;
+  padding: 7px 20px;
+}
+
+.work-demo a:hover{
+  color: #5c94bc;
+  transition: color 0.7s;
+}
+
+.work-demo a:active{
+  transform: translateY(2px);
+}

@@ -1,0 +1,22 @@
+/*skills*/
+.skills{
+  text-align: left;
+}
+
+.skills i{
+  font-size: 60px;
+  margin: 0 3px;
+}
+
+.skills label{
+  display: inline-block;
+  font-family: 'Josefin Slab';
+}
+
+.skills h3{
+  font-size: 16px;
+}
+
+.skills.wrap{
+  margin: 20px 0;
+}

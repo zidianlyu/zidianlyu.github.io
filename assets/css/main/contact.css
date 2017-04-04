@@ -1,0 +1,29 @@
+/*contact*/
+.contact div{
+  display: inline-block;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  margin: 7px 0;
+}
+.contact-title{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin:0 10px;
+}
+
+.contact-content{
+  font-size: 25px;
+  text-transform: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 17px 12px 17px;
+  border-radius: 11px;
+  background-color: #bf1d21;
+  font-family: 'Nunito', cursive;
+}
