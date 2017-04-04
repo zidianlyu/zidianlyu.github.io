@@ -1,40 +1,40 @@
 /*education*/
-.edu{
-  padding-bottom: 5px;
-  box-shadow: 0 0 2px;
-  border-radius: 19px;
-  padding: 16px;
-  margin: 25px 0;
+
+.edu {
+    padding-bottom: 5px;
+    box-shadow: 0 0 2px;
+    border-radius: 19px;
+    padding: 16px;
+    margin: 25px 0;
 }
 
-.edu-img{
-  height: 75px;
-  margin-right: 10px;
+.edu-img {
+    height: 75px;
+    margin-right: 10px;
 }
 
-.edu h3{
-  display: flex;
-  align-items: center;
+.edu h3 {
+    display: flex;
+    align-items: center;
 }
 
-.edu h4{
-  padding-left: 25px;
+.edu h4 {
+    padding-left: 25px;
 }
 
-.edu h4 span{
-  font-size: 25px;
+.edu h4 span {
+    font-size: 25px;
 }
 
-
-.edu p{
-  margin: 11px 0;
-  padding-left: 60px;
-  font-size: 15px;
-  font-family: 'Nunito';
+.edu p {
+    margin: 11px 0;
+    padding-left: 60px;
+    font-size: 15px;
+    font-family: 'Nunito';
 }
 
-.cert-color{
-  background-color: #bf1d21;
-  border-radius: 6px;
-  padding: 6px 6px 6px 9px;
+.cert-color {
+    background-color: #bf1d21;
+    border-radius: 6px;
+    padding: 6px 6px 6px 9px;
 }

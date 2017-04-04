@@ -1,22 +1,35 @@
 /*skills*/
-.skills{
-  text-align: left;
+
+.skills {
+    text-align: center;
 }
 
-.skills i{
-  font-size: 60px;
-  margin: 0 3px;
+.skills-centerize {
+    text-align: center;
 }
 
-.skills label{
+.skills i {
+    font-size: 60px;
+    margin: 0 3px;
+}
+
+.skills label {
+    display: inline-block;
+    font-family: 'Nunito';
+}
+
+.skills h3 {
+    font-size: 16px;
+}
+
+.skills.wrap {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 10px 12px 12px 12px;
+  text-align: center;
+  width: 200px;
+  height: auto;
   display: inline-block;
-  font-family: 'Josefin Slab';
-}
-
-.skills h3{
-  font-size: 16px;
-}
-
-.skills.wrap{
-  margin: 20px 0;
+  margin: 20px;
+  vertical-align: middle;
 }

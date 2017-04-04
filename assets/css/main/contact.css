@@ -1,29 +1,46 @@
 /*contact*/
-.contact div{
-  display: inline-block;
+
+.contact div {
+    display: inline-block;
 }
 
-.contact-container{
-  display: flex;
-  justify-content: center;
-  margin: 7px 0;
-}
-.contact-title{
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-  margin:0 10px;
+.contact-picture {
+    height: 280px;
+    width: 233px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
 }
 
-.contact-content{
-  font-size: 25px;
-  text-transform: none;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 14px 17px 12px 17px;
-  border-radius: 11px;
-  background-color: #bf1d21;
-  font-family: 'Nunito', cursive;
+.profile-picture {
+    height: 350px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 7px 0;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.contact-content {
+    width: 375px;
+    font-size: 25px;
+    text-transform: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 17px 12px 17px;
+    border-radius: 11px;
+    background-color: rgba(255, 255, 255, 0.06);
+    font-family: 'Nunito', cursive;
 }

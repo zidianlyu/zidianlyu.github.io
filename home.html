@@ -1,358 +1,383 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Zidian Lyu</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/spin.css" />
-		<link rel="stylesheet" href="assets/css/ripple.css" />
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<head>
+	<meta charset="utf-8" />
+	<title>Zidian Lyu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="shortcut icon" href="images/superpower.ico">
+	<link rel="stylesheet" href="assets/css/main.css">
 
-		  ga('create', 'UA-91951547-1', 'auto');
-		  ga('send', 'pageview');
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script src="assets/js/google_analytics.js"></script>
+</head>
 
-		</script>
-
-
-	</head>
-	<body>
-
-		<!-- <div class="logo">
-		</div> -->
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-							<div class="profile-icon">
-								<span class="fa fa-globe"></span>
-							</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Zidian <span class="last-name">Lyu</span></h1>
-
-								<p>
-									A <span class="last-name">Software Developer</span> in San Francisco and Bay Area
-									<p class="homepage-link">
-										<a class="contact-link" href="https://www.linkedin.com/in/zidianlyu">
-											<span class="icon fa-linkedin-square"></span>
-										</a>
-
-										<a class="contact-link" href="https://github.com/zidianlyu">
-											<span class="icon fa-github"></span>
-										</a>
-									</p>
-								</p>
-							</div>
+<body>
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Header -->
+		<header id="header">
+			<div class="profile-icon">
+				<span class="fa fa-globe"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<div class='realtime-page'>
+						<h1><span class="fa fa-clock-o fa-2x" name="text-icon"/></h1>
+						<div class='realtime-text'>
+							<p class='realtime-clock'><span>{h}:{m}:{s}</span></p>
+							<p class='realtime-date'>{this.state.time.toDateString()}</p>
 						</div>
-						<nav>
-							<ul class="homepage-tag">
-								<li><a class="intro-tag" href="#intro">Skills</a></li>
-								<li><a class="projects-tag" href="#work">Projects</a></li>
-								<li><a class="education-tag" href="#about">Education</a></li>
-								<li><a class="contact-tag" href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
+					</div>
 
-				<!-- Main -->
-					<div id="main">
+					<h1>Zidian <span class="last-name">Lyu</span></h1>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Skills</h2>
-								<!-- <span class="image main"><img src="images/pic00.jpg" alt="" /></span> -->
+					<p>
+						A <span class="last-name">Software Developer</span> in San Francisco and Bay Area
+						<p class="homepage-link">
+							<a class="contact-link" href="https://www.linkedin.com/in/zidianlyu">
+								<span class="icon fa-linkedin-square"></span>
+							</a>
 
-								<div class="skills">
-									<div class="skills wrap">
-										<h3>General:</h3>
-										<i class="devicon-ruby-plain-wordmark colored"></i>
-										<i class="devicon-python-plain-wordmark colored"></i>
-										<i class="devicon-javascript-plain colored"></i>
-										<i class="devicon-java-plain-wordmark colored"></i>
-									</div>
+							<a class="contact-link" href="https://github.com/zidianlyu">
+								<span class="icon fa-github"></span>
+							</a>
+						</p>
+					</p>
+				</div>
+			</div>
+			<nav>
+				<ul class="homepage-tag">
+					<li><a class="intro-tag" href="#intro">Skills</a></li>
+					<li><a class="projects-tag" href="#work">Projects</a></li>
+					<li><a class="education-tag" href="#about">Education</a></li>
+					<li><a class="contact-tag" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-									<div class="skills wrap">
-										<h3>Frameworks:</h3>
-										<i class="devicon-rails-plain-wordmark colored"></i>
-										<i class="devicon-django-line-wordmark"></i>
-										<i class="devicon-nodejs-plain-wordmark colored"></i>
-									</div>
+		<!-- Main -->
+		<div id="main">
+			<!-- skills -->
+			<article id="intro">
+				<h2 class="major">Skills</h2>
+				<!-- <span class="image main"><img src="images/pic00.jpg" alt="" /></span> -->
 
-									<div class="skills wrap">
-										<h3>Database:</h3>
-										<i class="devicon-mysql-plain-wordmark colored"></i>
-										<i class="devicon-postgresql-plain-wordmark colored"></i>
-									</div>
+				<div class="skills">
 
-									<div class="skills wrap">
-										<h3>Front End:</h3>
-										<i class="devicon-react-original-wordmark colored"></i>
-										<i class="devicon-html5-plain-wordmark colored"></i>
-										<i class="devicon-css3-plain-wordmark colored"></i>
-										<i class="devicon-bootstrap-plain-wordmark colored"></i>
-										<i class="devicon-jquery-plain-wordmark colored"></i>
-									</div>
+					<div class="skills wrap">
+						<div class="skills-centerize">
+							<h3>General:</h3>
+							<i class="devicon-ruby-plain-wordmark colored"></i>
+							<i class="devicon-python-plain-wordmark colored"></i>
+							<i class="devicon-javascript-plain colored"></i>
+							<i class="devicon-java-plain-wordmark colored"></i>
+						</div>
+					</div>
 
-									<div class="skills wrap">
-										<h3 class="skills frontend">Project Managment and Deploy:</h3>
-										<i class="devicon-git-plain-wordmark colored"></i>
-										<i class="devicon-trello-plain-wordmark colored"></i>
-										<i class="devicon-heroku-original-wordmark colored"></i>
-									</div>
+					<div class="skills wrap">
+						<div class="skills-centerize">
+							<h3>Frameworks:</h3>
+							<i class="devicon-rails-plain-wordmark colored"></i>
+							<i class="devicon-django-line-wordmark"></i>
+							<i class="devicon-nodejs-plain-wordmark colored"></i>
+						</div>
+					</div>
 
-								</div>
-							</article>
+					<div class="skills wrap">
+						<div class="skills-centerize">
+							<h3>Front End:</h3>
+							<i class="devicon-html5-plain-wordmark colored"></i>
+							<i class="devicon-css3-plain-wordmark colored"></i>
+							<i class="devicon-react-original-wordmark colored"></i>
+							<i class="devicon-jquery-plain-wordmark colored"></i>
+							<i class="devicon-bootstrap-plain-wordmark colored"></i>
+						</div>
+					</div>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Projects</h2>
-								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+					<div class="skills wrap">
+						<div class="skills-centerize">
+							<h3>Database:</h3>
+							<i class="devicon-mysql-plain-wordmark colored"></i>
+							<i class="devicon-postgresql-plain-wordmark colored"></i>
+						</div>
+					</div>
 
-								<h3 class="full-stack">Full Stack Projects</h3>
-								<a href="http://eventboost.herokuapp.com/#/">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_eventboost.ico" />
-											<h3 class="work-demo-title">
+					<div class="skills wrap">
+						<div class="skills-centerize">
+							<h3>Deployment:</h3>
+							<i class="devicon-github-plain-wordmark colored"></i>
+							<i class="devicon-heroku-original-wordmark colored"></i>
+						</div>
+					</div>
+
+					<div class="skills wrap">
+						<div class="skills-centerize">
+							<h3>Project Management:</h3>
+							<i class="devicon-git-plain-wordmark colored"></i>
+							<i class="devicon-trello-plain-wordmark colored"></i>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<!-- Work -->
+			<article id="work">
+				<h2 class="major">Projects</h2>
+				<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+
+				<!-- full stack project -->
+				<h3 class="project-category">Full Stack Projects</h3>
+				<a href="http://eventboost.herokuapp.com/#/">
+					<div class="project">
+						<div class="project-top">
+							<img class="project-icon" src="images/favicon_eventboost.ico" />
+							<h3 class="work-demo-title">
 													<span class="eventboost-color">EVENTBOOST</span>
 											</h3>
-										</div>
-										<div class="project-bottom">
-											<h4> A <span class="eventboost-color">ticket application site</span> with crowd funded events</h4>
-											<p>⚒ Maintained the <span class="eventboost-color">MVC</span> patterns on the <span class="eventboost-color">Rails</span> framework to ensure data calculations and transmissions run reactively within expected scalability</p>
-											<p>⚒ Improved the website loading stability and response speed through eliminating unnecessary <span class="eventboost-color">HTTP requests</span>, cutting down external scripts and bringing them in via <span class="eventboost-color">CDN plugins</span> and implementing <span class="eventboost-color">page caching</span> in the production environment</p>
-											<p>⚒ Designed and updated customized features on <span class="eventboost-color">React.js</span> with sample tests to check admin and users have proper permission to assess specified data</p>
-										</div>
-									</div>
-								</a>
+						</div>
+						<div class="project-bottom">
+							<h4> A <span class="eventboost-color">ticket application site</span> with crowd funded events</h4>
+							<p>⚒ Maintained the <span class="eventboost-color">MVC</span> patterns on the <span class="eventboost-color">Rails</span> framework to ensure data calculations and transmissions run reactively within expected scalability</p>
+							<p>⚒ Improved the website loading stability and response speed through eliminating unnecessary <span class="eventboost-color">HTTP requests</span>, cutting down external scripts and bringing them in via <span class="eventboost-color">CDN plugins</span>								and implementing <span class="eventboost-color">page caching</span> in the production environment</p>
+							<p>⚒ Designed and updated customized features on <span class="eventboost-color">React.js</span> with sample tests to check admin and users have proper permission to assess specified data</p>
+						</div>
+					</div>
+				</a>
 
-								<a href="http://cocf.herokuapp.com/#/">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_cocf.ico" />
-											<h3 class="work-demo-title">
+				<a href="http://cocf.herokuapp.com/#/">
+					<div class="project">
+						<div class="project-top">
+							<img class="project-icon" src="images/favicon_cocf.ico" />
+							<h3 class="work-demo-title">
 													<span class="eventboost-color">CITY OF CHINESE FOOD</span>
 											</h3>
-										</div>
-										<div class="project-bottom">
-											<h4> A Chinese food ordered and dinning reservation platform</h4>
-											<p>⚒ Implemented token authentication, custom email contact and payment process features on django REST framework</p>
-											<p>⚒ Incorporated Stripe API to support real-time payments for customers and maintained API version to provide compatibility and simplicity</p>
-											<p>⚒ Optimized raw images through loading via Cloudinary API, cropping out unneeded areas and modifying the resolution</p>
-										</div>
-									</div>
-								</a>
+						</div>
+						<div class="project-bottom">
+							<h4> A Chinese food ordered and dinning reservation platform</h4>
+							<p>⚒ Implemented token authentication, custom email contact and payment process features on django REST framework</p>
+							<p>⚒ Incorporated Stripe API to support real-time payments for customers and maintained API version to provide compatibility and simplicity</p>
+							<p>⚒ Optimized raw images through loading via Cloudinary API, cropping out unneeded areas and modifying the resolution</p>
+						</div>
+					</div>
+				</a>
 
 
-								<a href="https://audiocloud.herokuapp.com/#/">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_audiocloud.ico" />
-											<h3 class="work-demo-title">AudioCloud</h3>
-										</div>
-										<div class="project-bottom">
-											<h4> A tracks streaming and playing website</h4>
-											<p>⚒ Implemented track create feature with React to allow the user create their own track on the site</p>
-											<p>⚒ Incorporated Cloudinary API to store user’s images and audios and response the secure URLs to the database</p>
-											<p>⚒ Designed pages layout to smoothly render content based on the demo session, homepage, and track show page </p>
-										</div>
-									</div>
-								</a>
+				<a href="https://audiocloud.herokuapp.com/#/">
+					<div class="project">
+						<div class="project-top">
+							<img class="project-icon" src="images/favicon_audiocloud.ico" />
+							<h3 class="work-demo-title">AudioCloud</h3>
+						</div>
+						<div class="project-bottom">
+							<h4> A tracks streaming and playing website</h4>
+							<p>⚒ Implemented track create feature with React to allow the user create their own track on the site</p>
+							<p>⚒ Incorporated Cloudinary API to store user’s images and audios and response the secure URLs to the database</p>
+							<p>⚒ Designed pages layout to smoothly render content based on the demo session, homepage, and track show page </p>
+						</div>
+					</div>
+				</a>
 
 
-								<h3 class="front-end">Web Games</h3>
-								<a href="https://zidianlyu.github.io/Twenty-forty-eight/">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_2048.ico" />
-											<h3 class="work-demo-title">
+				<!-- web games -->
+				<h3 class="project-category">Web Games</h3>
+				<a href="https://zidianlyu.github.io/Twenty-forty-eight/">
+					<div class="project">
+						<div class="project-top">
+							<img class="project-icon" src="images/favicon_2048.ico" />
+							<h3 class="work-demo-title">
 												<span class="tfe-color">Twenty-forty-eight</span>
 											</h3>
-										</div>
-										<div class="project-bottom">
-											<h4> An educational <span class="tfe-color">website game</span> with mathematical logic</h4>
-											<p>⚒	Optimized the scoring <span class="tfe-color">algorithm</span> with various scaled runtime tests on the server side in <span class="tfe-color">Node.js</span> framework</p>
-											<p>⚒	Performed a smooth and dynamic <span class="tfe-color">UX</span> design with intuitive controls in <span class="tfe-color">jQuery</span> that supports animation effect and <span class="tfe-color">AJAX</span> calls on client side</p>
-											<p>⚒	Accessed CSS contents from <span class="tfe-color">MaxCDN</span> and <span class="tfe-color">CloudFlare</span> to avoid the internet traffic and to improve the game response speed</p>
-										</div>
-									</div>
-								</a>
+						</div>
+						<div class="project-bottom">
+							<h4> An educational <span class="tfe-color">website game</span> with mathematical logic</h4>
+							<p>⚒ Optimized the scoring <span class="tfe-color">algorithm</span> with various scaled runtime tests on the server side in <span class="tfe-color">Node.js</span> framework</p>
+							<p>⚒ Performed a smooth and dynamic <span class="tfe-color">UX</span> design with intuitive controls in <span class="tfe-color">jQuery</span> that supports animation effect and <span class="tfe-color">AJAX</span> calls on client side</p>
+							<p>⚒ Accessed CSS contents from <span class="tfe-color">MaxCDN</span> and <span class="tfe-color">CloudFlare</span> to avoid the internet traffic and to improve the game response speed</p>
+						</div>
+					</div>
+				</a>
 
 
-								<h3 class="front-end">Front End Designs</h3>
-								<a href="https://zidianlyu.github.io/Sphere_Design/">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_sphere.ico" />
-											<h3 class="work-demo-title">
+				<!-- front end -->
+				<h3 class="project-category">Front End Designs</h3>
+				<a href="https://zidianlyu.github.io/Sphere_Design/">
+					<div class="project">
+						<div class="project-top">
+							<img class="project-icon" src="images/favicon_sphere.ico" />
+							<h3 class="work-demo-title">
 												<span class="tfe-color">Sphere Inc.</span>
 											</h3>
-										</div>
-										<div class="project-bottom">
-											<h4> An interactive calendar page, UI Design</h4>
-											<p>⚒ Applied <span class="tfe-color">backtracking algorithm</span> on the backend to fetch and compare the values of two given tiles, and updated the most optimized step in each possible move</p>
-											<p>⚒ Designed <span class="tfe-color">dynamic UX</span> by importing GoogleApi and Cloudflare library binds with <span class="2048-color">CSS</span> keyframe animation to provide smooth visual effects and intuitive controls</p>
-										</div>
-									</div>
-								</a>
+						</div>
+						<div class="project-bottom">
+							<h4> An interactive calendar page, UI Design</h4>
+							<p>⚒ Applied <span class="tfe-color">backtracking algorithm</span> on the backend to fetch and compare the values of two given tiles, and updated the most optimized step in each possible move</p>
+							<p>⚒ Designed <span class="tfe-color">dynamic UX</span> by importing GoogleApi and Cloudflare library binds with <span class="2048-color">CSS</span> keyframe animation to provide smooth visual effects and intuitive controls</p>
+						</div>
+					</div>
+				</a>
 
-								<a href="https://zidianlyu.github.io/Sphere_demo/">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_sphere.ico" />
-											<h3 class="work-demo-title">
+				<a href="https://zidianlyu.github.io/Sphere_demo/">
+					<div class="project">
+						<div class="project-top">
+							<img class="project-icon" src="images/favicon_sphere.ico" />
+							<h3 class="work-demo-title">
 												<span class="tfe-color">Sphere Inc.---UI</span>
 											</h3>
-										</div>
-										<div class="project-bottom">
-											<h4> An interactive calendar page, Front End Design</h4>
-											<p>⚒ Applied <span class="tfe-color">backtracking algorithm</span> on the backend to fetch and compare the values of two given tiles, and updated the most optimized step in each possible move</p>
-											<p>⚒ Designed <span class="tfe-color">dynamic UX</span> by importing GoogleApi and Cloudflare library binds with <span class="2048-color">CSS</span> keyframe animation to provide smooth visual effects and intuitive controls</p>
-										</div>
-									</div>
-								</a>
+						</div>
+						<div class="project-bottom">
+							<h4> An interactive calendar page, Front End Design</h4>
+							<p>⚒ Applied <span class="tfe-color">backtracking algorithm</span> on the backend to fetch and compare the values of two given tiles, and updated the most optimized step in each possible move</p>
+							<p>⚒ Designed <span class="tfe-color">dynamic UX</span> by importing GoogleApi and Cloudflare library binds with <span class="2048-color">CSS</span> keyframe animation to provide smooth visual effects and intuitive controls</p>
+						</div>
+					</div>
+				</a>
 
-								<a href="https://zidianlyu.github.io/quipt/">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_quipt.ico" />
-											<h3 class="work-demo-title"><span class="quipt-color">QUIPT Inc.</span></h3>
-										</div>
+				<a href="https://zidianlyu.github.io/quipt/">
+					<div class="project">
+						<div class="project-top">
+							<img class="project-icon" src="images/favicon_quipt.ico" />
+							<h3 class="work-demo-title"><span class="quipt-color">QUIPT Inc.</span></h3>
+						</div>
 
-										<div class="project-bottom">
-											<h4> A solo-designed demo website with animation effects</h4>
-											<p>⚒  Generated animation effects on the page by creating css <span class="quipt-color">keyframes</span> functions and switched-state contents</p>
-											<p>⚒  Trigged the page effects through implementing <span class="quipt-color">jQuery</span> library and sending JS calls to the page</p>
-										</div>
-									</div>
-								</a>
+						<div class="project-bottom">
+							<h4> A solo-designed demo website with animation effects</h4>
+							<p>⚒ Generated animation effects on the page by creating css <span class="quipt-color">keyframes</span> functions and switched-state contents</p>
+							<p>⚒ Trigged the page effects through implementing <span class="quipt-color">jQuery</span> library and sending JS calls to the page</p>
+						</div>
+					</div>
+				</a>
 
+				<h3 class="project-category">Back End Projects</h3>
+				<a href="https://github.com/zidianlyu/Banking_Application">
+					<div class="project">
+						<div class="project-top">
+							<h3 class="work-demo-title"><span class="quipt-color">ATM Banking Application</span></h3>
+						</div>
 
-								<h3 class="front-end">Machine Learning</h3>
-								<a href="https://github.com/zidianlyu/Paint_As_Artists">
-									<div class="project">
-										<div class="project-top">
-											<img class="project-icon" src="images/favicon_quipt.ico" />
-											<h3 class="work-demo-title"><span class="quipt-color">PAINT AS ARTISTS</span></h3>
-										</div>
+						<div class="project-bottom">
+							<h4>A banking application that allows user to deposit, withdraw and check balance</h4>
+							<p>⚒ Extracted deep visual features from a pre-trained VGG ImageNet and trained models on Tensorflow framework</p>
+							<p>⚒ Improved model performance by using dating transforms, algorithm tuning and ensemble methods</p>
+						</div>
+					</div>
+				</a>
 
-										<div class="project-bottom">
-											<h4>An pattern learning project that generate stylized pictures</h4>
-											<p>⚒  Extracted deep visual features from a pre-trained VGG ImageNet and trained models on Tensorflow framework</p>
-											<p>⚒  Improved model performance by using dating transforms, algorithm tuning and ensemble methods</p>
-										</div>
-									</div>
-								</a>
-							</article>
+				<h3 class="project-category">Machine Learning</h3>
+				<a href="https://github.com/zidianlyu/Paint_As_Artists">
+					<div class="project">
+						<div class="project-top">
+							<h3 class="work-demo-title"><span class="quipt-color">PAINT AS ARTISTS</span></h3>
+						</div>
 
-						<!-- Achievement -->
-							<article id="about">
-								<h2 class="major">Achievement</h2>
-								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
-								<div class="edu">
-									<h3>
+						<div class="project-bottom">
+							<h4>An pattern learning project that generate stylized pictures</h4>
+							<p>⚒ Extracted deep visual features from a pre-trained VGG ImageNet and trained models on Tensorflow framework</p>
+							<p>⚒ Improved model performance by using dating transforms, algorithm tuning and ensemble methods</p>
+						</div>
+					</div>
+				</a>
+			</article>
+
+			<!-- Achievement -->
+			<article id="about">
+				<h2 class="major">Achievement</h2>
+				<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
+				<div class="edu">
+					<h3>
 										<img class="edu-img" src="images/ucd.png" alt=""/>
 										University of California, Davis
 									</h3>
 
-									<h4>
+					<h4>
 										<span class="fa fa-graduation-cap"></span>
 										<cert class="cert-color">B.S. Computer Science 2016</cert>
 									</h4>
-									<p>⚒
-										Dean’s List 2014
-									</p>
-									<p><span class="fa fa-code-fork"></span>
-										Courses completed: Machine Learning, Operating System, Computational Theory, Data Structure and Algorithm
-									</p>
-								</div>
+					<p>⚒ Dean’s List 2014
+					</p>
+					<p><span class="fa fa-code-fork"></span> Courses completed: Machine Learning, Operating System, Computational Theory, Data Structure and Algorithm
+					</p>
+				</div>
 
-								<div class="edu">
-									<h3>
+				<div class="edu">
+					<h3>
 										<img class="edu-img" src="images/aa.png" alt=""/>
 										App Academy
 									</h3>
-									<h4><span class="fa fa-graduation-cap"></span>
+					<h4><span class="fa fa-graduation-cap"></span>
 										<cert class="cert-color">Full Stack Web Developer 2017</cert>
 									</h4>
-									<p>
-										<span class="fa fa-code-fork"></span>
-										1000hrs immersive full stack web development intensive with < 3% acceptance rate
-									</p>
-									<p><span class="fa fa-code-fork"></span> Course focus on: Pair Programming, Design Pattern, Coding Style, Algorithms, Scalability, Security, OOP, TDD</p>
-								</div>
-							</article>
+					<p>
+						<span class="fa fa-code-fork"></span> 1000hrs immersive full stack web development intensive with
+						< 3% acceptance rate </p>
+							<p><span class="fa fa-code-fork"></span> Course focus on: Pair Programming, Design Pattern, Coding Style, Algorithms, Scalability, Security, OOP, TDD</p>
+				</div>
+			</article>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<div class="contact-picture">
-									<img class="profile-picture" src="images/Zidian_Lyu.jpg" alt=""/>
-								</div>
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<div class="contact-picture">
+					<img class="profile-picture" src="images/Zidian_Lyu.jpg" alt="" />
+				</div>
 
-								<div class="contact-container">
-									<label class="contact-content">
+				<div class="contact-container">
+					<label class="contact-content">
 										<h3 class="contact-title"><span class="fa fa-phone"/></h3>
 										(951)-660-1736
 									</label>
-								</div>
+				</div>
 
-								<div class="contact-container">
-									<label class="contact-content">
+				<div class="contact-container">
+					<label class="contact-content">
 										<h3 class="contact-title"><span class="fa fa-envelope"/></h3>
 										zlu@ucdavis.edu
 									</label>
-								</div>
+				</div>
 
-								<div class="contact-container">
-									<label class="contact-content">
+				<div class="contact-container">
+					<label class="contact-content">
 										<h3 class="contact-title"><span class="fa fa-map-marker"/></h3>
 										San Jose, CA, 95125
 									</label>
-								</div>
+				</div>
 
-								<p class="homepage-link">
-									<a class="contact-link" href="https://www.linkedin.com/in/zidianlyu">
-										<span class="icon fa-linkedin-square"></span>
-									</a>
+				<p class="homepage-link">
+					<a class="contact-link" href="https://www.linkedin.com/in/zidianlyu">
+						<span class="icon fa-linkedin-square"></span>
+					</a>
 
-									<a class="contact-link" href="https://github.com/zidianlyu">
-										<span class="icon fa-github"></span>
-									</a>
+					<a class="contact-link" href="https://github.com/zidianlyu">
+						<span class="icon fa-github"></span>
+					</a>
 
-									<a class="contact-link" href="https://www.facebook.com/watch.zidian">
-										<span class="icon fa-facebook"></span>
-									</a>
-								</p>
+					<a class="contact-link" href="https://www.facebook.com/watch.zidian">
+						<span class="icon fa-facebook"></span>
+					</a>
+				</p>
 
-							</article>
-					</div>
+			</article>
+		</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; San Jose, CA, 2017</p>
-					</footer>
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; San Jose, CA, 2017</p>
+		</footer>
 
-			</div>
+	</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
+	<!-- BG -->
+	<div id="bg"></div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/ripple.js"></script>
-	</body>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/ripple.js"></script>
+	<script src="assets/js/clock.js"></script>
+
+</body>
+
 </html>
