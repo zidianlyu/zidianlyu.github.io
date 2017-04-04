@@ -1,4 +1,9 @@
 @import url(font-awesome.min.css);
+@import url('main/home.css');
+@import url('main/skills.css');
+@import url('main/contact.css');
+@import url('main/education.css');
+@import url('main/projects.css');
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab|Nunito|Lato");
 
@@ -1603,125 +1608,3 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
-
-		/*special*/
-
-		/*intros*/
-
-		.one-sentence{
-			text-align: center;
-		}
-
-		.one-sentence h3{
-			font-size: 25px;
-		}
-
-		.one-sentence p{
-			/*font-family: 'Josefin Slab';*/
-			text-transform: uppercase;
-			font-size: 17px;
-			font-weight: bold;
-			padding: 5px;
-		}
-
-
-
-		.direct-to-work{
-			text-align: center;
-			font-size: 24px;
-		}
-		.direct-to-work a{
-			padding: 13px 26px;
-			box-shadow: 0 0 8px white;
-		}
-
-		.direct-to-work a:hover{
-			color: #5c94bc;
-			transition: color 0.7s;
-		}
-
-		.direct-to-work a:active{
-			transform: translateY(2px);
-		}
-
-		.last-name {
-			color: #bf1d21;
-		}
-
-		.homepage-link{
-			margin: 30px 0 0 0;
-			text-align: center;
-		}
-
-		.contact-link{
-			height: 67px;
-			width: 67px;
-			background-color: #bf1d21;
-			line-height: 123%;
-			padding: 0 10px 0 12px;
-	    font-size: 53px;
-	    margin: 0 8px;
-		}
-
-		.homepage-tag{
-			padding: 0;
-		}
-
-		.intro-tag{
-			background: #bf1d21;
-			border-radius: 0;
-			padding: 0;
-		}
-
-		.projects-tag{
-			background: #bf1d21;
-			border-radius: 0;
-			padding: 0;
-		}
-
-		.education-tag{
-			background: #bf1d21;
-			border-radius: 0;
-			padding: 0 4px 0 10px;
-		}
-
-		.contact-tag{
-			background: #bf1d21;
-			border-radius: 0;
-			padding: 0;
-		}
-
-
-		.profile-picture-wrap{
-			display: flex;
-			justify-content: center;
-		}
-
-		.contact-picture{
-			text-align: center;
-		}
-
-		.profile-picture{
-			height: 186px;
-			border-radius: 800%;
-		}
-
-		.profile-icon{
-			height: 120px;
-			width: 120px;
-			color: white;
-			border: 2px solid white;
-			border-radius: 100%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.profile-icon span{
-			font-size: 110px;
-		}
-
-@import url('./main/skills.css');
-@import url('./main/contact.css');
-@import url('./main/education.css');
-@import url('./main/projects.css');
