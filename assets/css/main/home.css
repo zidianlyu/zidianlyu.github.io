@@ -3,6 +3,7 @@
 .home-head {
     display: flex;
     align-items: flex-start;
+    margin: 10px 0;
 }
 
 .one-sentence {
