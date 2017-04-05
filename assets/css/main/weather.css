@@ -15,9 +15,14 @@
 
 .temp-tick button {
     padding: 1px 0px 0 3px;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     font-family: 'Nunito', sans-serif;
+}
+
+.convert-arrow {
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 .forecast {
@@ -30,28 +35,33 @@
 }
 
 .forecast-daily {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.forecast-daily p {
-    margin: 0 5px;
+.forecast-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 33px;
+    padding: 4px 5px 2px 5px;
+    border-radius: 5px;
 }
 
-.temp-now{
-  background-color: rgba(0, 0, 0, 0.3);
-  font-size: 21px;
-  padding: 4px 5px 2px 5px;
-  border-radius: 5px;
+.temp-now {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 21px;
+    padding: 4px 5px 2px 5px;
+    border-radius: 5px;
 }
 
-.wi.wi-direction-up{
-  color: #1cb70b;
-  font-size: 25px;
-  vertical-align: middle;
+.wi.wi-direction-up {
+    color: #1cb70b;
+    font-size: 25px;
+    vertical-align: middle;
 }
 
-.wi.wi-direction-down{
-  color: #b70b1c;
-  font-size: 25px;
-  vertical-align: middle;
+.wi.wi-direction-down {
+    color: #b70b1c;
+    font-size: 25px;
+    vertical-align: middle;
 }

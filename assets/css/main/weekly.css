@@ -35,6 +35,13 @@
     text-align: center;
 }
 
+.day-icon {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 23px;
+    padding: 3px 3px 8px 3px;
+    border-radius: 3px;
+}
+
 .day-cond {
     display: flex;
     height: 30px;
