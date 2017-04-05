@@ -1,5 +1,9 @@
 /*contact*/
 
+#contact {
+    margin-top: 150px;
+}
+
 .contact div {
     display: inline-block;
 }

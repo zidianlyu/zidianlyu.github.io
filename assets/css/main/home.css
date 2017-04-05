@@ -12,6 +12,11 @@
     top: 100px;
 }
 
+#main {
+    overflow: scroll;
+    margin: 0 0 50px 0;
+}
+
 .one-sentence {
     text-align: center;
 }

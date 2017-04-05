@@ -1,5 +1,9 @@
 /*skills*/
 
+#intro {
+    margin-top: 150px;
+}
+
 .skills {
     text-align: center;
 }
@@ -23,13 +27,13 @@
 }
 
 .skills.wrap {
-  background-color: rgba(255, 255, 255, 0.06);
-  border-radius: 8px;
-  padding: 10px 12px 12px 12px;
-  text-align: center;
-  width: 200px;
-  height: auto;
-  display: inline-block;
-  margin: 20px;
-  vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    padding: 10px 12px 12px 12px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: middle;
 }
