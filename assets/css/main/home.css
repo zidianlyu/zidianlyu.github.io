@@ -52,8 +52,7 @@
 }
 
 .last-name {
-    /*color: #bf1d21;*/
-    color: #467e3d;
+    color: #41a356;
 }
 
 .homepage-link {
@@ -64,7 +63,7 @@
 .contact-link {
     height: 67px;
     width: 67px;
-    color: #467e3d;
+    color: #41a356;
     background-color: rgba(255, 255, 255, 0.06);
     line-height: 123%;
     padding: 0 10px 0 12px;
@@ -78,28 +77,28 @@
 
 .intro-tag {
     background: rgba(255, 255, 255, 0.06);
-    color: #467e3d;
+    color: #41a356;
     border-radius: 0;
     padding: 0;
 }
 
 .projects-tag {
     background: rgba(255, 255, 255, 0.06);
-    color: #467e3d;
+    color: #41a356;
     border-radius: 0;
     padding: 0;
 }
 
 .education-tag {
     background: rgba(255, 255, 255, 0.06);
-    color: #467e3d;
+    color: #41a356;
     border-radius: 0;
     padding: 0 4px 0 10px;
 }
 
 .contact-tag {
     background: rgba(255, 255, 255, 0.06);
-    color: #467e3d;
+    color: #41a356;
     border-radius: 0;
     padding: 0;
 }

@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     //get location info
     $.ajax({
         type: 'GET',
@@ -29,7 +28,7 @@ $(document).ready(function() {
         //insert location into getWeather function
         getWeather(api);
 
-    } //end coordinates
+    }; //end coordinates
 
     function displayLocation(city, region, country) {
         // debugger;

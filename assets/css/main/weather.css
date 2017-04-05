@@ -49,6 +49,7 @@
 
 .temp-now {
     background-color: rgba(0, 0, 0, 0.3);
+    color: #e0bf63;
     font-size: 16px;
     padding: 4px 5px 2px 5px;
     border-radius: 5px;

@@ -5,18 +5,21 @@
 }
 
 .edu {
+    background-color: rgba(255, 255, 255, 0.05);
     padding-bottom: 5px;
-    box-shadow: 0 0 2px;
-    border-radius: 19px;
+    border-radius: 10px;
     padding: 16px;
     margin: 25px 0;
 }
 
-.edu-img {
-    /*background-color: rgba(255, 255, 255, 0.06);*/
-    /*border-radius: 10px;*/
+.edu img {
     height: 75px;
     margin-right: 10px;
+}
+
+.aa-img {
+    -webkit-filter: saturate(55%);
+    filter: saturate(55%);
 }
 
 .edu h3 {
@@ -27,25 +30,43 @@
 
 .edu h4 {
     padding-left: 25px;
+    display: flex;
 }
 
 .edu h4 span {
     font-size: 25px;
 }
 
-.edu p {
-    margin: 11px 0;
+.edu h4 p {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+    padding: 6px 6px 6px 9px;
+    margin: 0;
+}
+
+.edu-achievement {
+    margin: 8px 0 0 0;
     padding-left: 60px;
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
-}
-.edu p span{
-  font-size: 20px;
-  color: #d9a10f;
+    display: flex;
+    align-items: baseline;
 }
 
-.cert-color {
-    background-color: #ae820c;
+.edu-achievement span {
+    font-size: 15px;
+    color: #d9a10f;
+}
+
+.edu-achievement ul {
+    max-height: 100px;
+    overflow: scroll;
+    margin: 0px 0 0 6px;
+    background-color: rgba(255, 255, 255, 0.06);
     border-radius: 6px;
-    padding: 6px 6px 6px 9px;
+    padding: 3px 7px 3px 7px;
+}
+
+.edu li {
+    list-style: none;
 }
