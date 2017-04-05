@@ -1,11 +1,11 @@
 /*clock*/
 
 .clock {
-    margin: 0 10px;;
+    margin: 0 30px;
     background-color: rgba(255, 255, 255, 0.06);
     text-align: center;
     border-radius: 5px;
-    padding: 4px 7px;
+    padding: 7px 7px 1px 7px;
 }
 
 .clock p {
@@ -13,5 +13,8 @@
 }
 
 .clock-time {
-  font-size: 22px;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 0 0 5px 0;
 }

@@ -2,7 +2,7 @@
 
 .home-head {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .one-sentence {
