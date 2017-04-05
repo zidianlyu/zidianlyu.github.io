@@ -1,5 +1,9 @@
 /*education*/
 
+#about {
+    top: 150px;
+}
+
 .edu {
     padding-bottom: 5px;
     box-shadow: 0 0 2px;
