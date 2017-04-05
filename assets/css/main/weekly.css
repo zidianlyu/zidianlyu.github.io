@@ -1,0 +1,31 @@
+/*weekly*/
+
+.forecast-weekly {
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 300px;
+    height: 120px;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+
+.temp-weekly {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.temp-weekly li {
+    list-style: none;
+    padding: 0;
+}
+
+.day {
+    width: 140px;
+    height: 75px;
+}
+
+.day-cond {
+    display: flex;
+    height: 30px;
+    overflow: scroll;
+}

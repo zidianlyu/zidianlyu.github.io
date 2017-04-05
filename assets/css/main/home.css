@@ -1,5 +1,10 @@
 /*home*/
 
+.home-head {
+    display: flex;
+    align-items: center;
+}
+
 .one-sentence {
     text-align: center;
 }
