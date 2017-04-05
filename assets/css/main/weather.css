@@ -5,7 +5,7 @@
     padding: 5px 8px;
     border-radius: 5px;
     height: 130px;
-    width: 235px;
+    width: 251px;
     display: inline-grid;
 }
 
@@ -42,16 +42,17 @@
 
 .forecast-icon {
     background-color: rgba(0, 0, 0, 0.3);
-    font-size: 33px;
+    font-size: 25px;
     padding: 4px 5px 2px 5px;
     border-radius: 5px;
 }
 
 .temp-now {
     background-color: rgba(0, 0, 0, 0.3);
-    font-size: 21px;
+    font-size: 16px;
     padding: 4px 5px 2px 5px;
     border-radius: 5px;
+    margin: 0 2px;
 }
 
 .wi.wi-direction-up {
