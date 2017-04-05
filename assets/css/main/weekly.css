@@ -2,13 +2,14 @@
 
 .forecast-weekly {
     background-color: rgba(255, 255, 255, 0.06);
-    width: 300px;
-    height: 120px;
-    border-radius: 8px;
-    padding: 5px 8px;
+    border-radius: 5px;
+    height: 130px;
+    display: -webkit-box;
+    /*padding: 5px 8px;*/
 }
 
 .temp-weekly {
+    padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -20,8 +21,16 @@
 }
 
 .day {
-    width: 140px;
-    height: 75px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.day p {
+    margin: 0;
+    text-align: center;
 }
 
 .day-cond {

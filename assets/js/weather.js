@@ -122,14 +122,10 @@ $(document).ready(function() {
         } //end displayWeather
 
         function displayWeekly(day, icon, condition, low, high) {
-            let list = '<span class="day-name">' + day + '</span>';
-            list += '<span class="day-icon wi wi-forecast-io-' + icon + '"></span>';
-            list += '<span class="day-cond">' + condition + '</span>';
-            list += '<span class="wi wi-direction-up"></span>';
-            list += '<span class="day-high">' + high + '</span>';
-            list += '<span class="wi wi-direction-down"></span>';
-            list += '<span class="day-low">' + low + '</span>';
-
+            let list = '<p class="day-name">' + day + '</p>';
+            list += '<p class="day-icon wi wi-forecast-io-' + icon + '"></p>';
+            list += '<p class="day-cond">' + condition + '</p>';
+            list += '<p class="day-high">' + '<span class="wi wi-direction-up"></span>' + high + ', ' + '<span class="wi wi-direction-down"></span>' + low + '</p>';
             $('#temp-weekly').append('<li class="day">' + list + '</li>');
 
         } // end display weekly weather

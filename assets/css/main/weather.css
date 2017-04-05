@@ -5,7 +5,7 @@
     padding: 5px 8px;
     border-radius: 8px;
     height: 130px;
-    width: 170px;
+    width: 180px;
 }
 
 .temp-tick {
@@ -25,13 +25,11 @@
 }
 
 .forecast-city {
-    margin: 5px 0;
+    margin: 0;
 }
 
 .forecast-daily {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 
 .forecast-daily p {

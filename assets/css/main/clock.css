@@ -11,3 +11,7 @@
 .clock p {
     margin: 0;
 }
+
+.clock-time {
+  font-size: 22px;
+}
