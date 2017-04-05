@@ -148,7 +148,7 @@ a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.03);
     /*opacity: 0.8;*/
     transition: background-color 0.9s;
     /*border-bottom-color: transparent;*/
@@ -1402,7 +1402,7 @@ body.is-loading #header .content .inner {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(27, 31, 34, 0.85);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     opacity: 0;
 }
