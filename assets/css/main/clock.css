@@ -1,34 +1,11 @@
-.realtime-page {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 260px;
-    padding: 10px;
-}
-
-.realtime-page h1 {
-    color: white;
-    margin: 0;
-}
-
-.realtime-text {
-    color: white;
-    margin-top: 12px;
+.clock {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.06);
     text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    border-radius: 5px;
+    padding: 7px 7px 4px 7px;
 }
 
-.realtime-clock span {
-    font-size: 30px;
-    padding: 3px 7px 0px 7px;
-    border-radius: 6px;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.realtime-date {
-    font-size: 16px;
-}
-
-.realtime-text p {
-    margin: 2px auto;
+.clock-head{
+  color: red;
 }

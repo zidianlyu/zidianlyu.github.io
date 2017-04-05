@@ -7,15 +7,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="shortcut icon" href="images/superpower.ico">
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
 
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<script src="assets/js/google_analytics.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+
 </head>
 
 <body>
 	<!-- Wrapper -->
 	<div id="wrapper">
+		<div id="clock" class="clock">loading ...</div>
 		<!-- Header -->
 		<header id="header">
 			<div class="profile-icon">
@@ -23,13 +28,7 @@
 			</div>
 			<div class="content">
 				<div class="inner">
-					<div class='realtime-page'>
-						<h1><span class="fa fa-clock-o fa-2x" name="text-icon"/></h1>
-						<div class='realtime-text'>
-							<p class='realtime-clock'><span>{h}:{m}:{s}</span></p>
-							<p class='realtime-date'>{this.state.time.toDateString()}</p>
-						</div>
-					</div>
+
 
 					<h1>Zidian <span class="last-name">Lyu</span></h1>
 
@@ -377,7 +376,7 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/ripple.js"></script>
 	<script src="assets/js/clock.js"></script>
-
+	<script src="assets/js/weather.js"></script>
 </body>
 
 </html>
