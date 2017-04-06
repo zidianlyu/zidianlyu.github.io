@@ -17,13 +17,28 @@
     border-radius: 8px;
     padding: 16px 16px 16px 16px;
     margin: 0 0 10px 0;
+    transition: background-color 0.7s;
 }
 
 .project:hover {
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.2);
-    opacity: 0.8;
-    transition: opacity 0.8s;
+    /*cursor: pointer;*/
+    /*background-color: rgba(255, 255, 255, 0.18);*/
+    /*transition: background-color 0.8s;*/
+}
+
+.project h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.project h4 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
 }
 
 .project-top {
@@ -38,21 +53,32 @@
     border-radius: 7px;
 }
 
-.project-top h3 {
-    font-family: 'Nunito', sans-serif;
-    font-size: 21px;
-    margin: 0;
-    padding-left: 10px;
-    display: inline-block;
+.project-bottom {
+    margin: 8px 0 0 40px;
 }
 
-.project-bottom p {
+.project-detail {
+    display: flex;
+    align-items: baseline;
+}
+
+.project-detail ul {
     font-family: 'Varela Round', sans-serif;
     font-size: 12px;
-    padding-left: 25px;
+    padding: 0 0 0 16px;
+    margin: 0 0 0 0;
 }
 
-.project-bottom h4 {
-    padding-left: 12px;
-    font-size: 11px;
+.project-detail span {
+    font-size: 15px;
+    color: #41a356;
+}
+
+.project-font-emphasis {
+    list-style: none;
+    display: inline-block;
+    padding: 0 0 0 0;
+    color: white;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
 }
