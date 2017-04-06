@@ -4,9 +4,10 @@
     background-color: rgba(0, 0, 0, 0.35);
     padding: 5px 8px;
     border-radius: 5px;
-    width: 30%;
+    width: 31%;
     overflow-x: scroll;
     display: inline-grid;
+    white-space: nowrap;
 }
 
 .temp-tick {
@@ -36,14 +37,11 @@
     margin: 0 5px;
 }
 
-.location {
+.forecast-city {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.location p {
-    margin: 0 0 0 0;
+    margin: 0 auto;
 }
 
 .forecast {
@@ -64,19 +62,13 @@
 }
 
 .forecast-icon {
-    background-color: rgba(255, 255, 255, 0.06);
-    font-size: 25px;
-    padding: 4px 5px 2px 5px;
-    border-radius: 5px;
+    font-size: 20px;
 }
 
 .temp-now {
-    background-color: rgba(255, 255, 255, 0.06);
     color: #e0bf63;
-    font-size: 16px;
-    padding: 4px 5px 2px 5px;
-    border-radius: 5px;
-    margin: 0 2px;
+    font-size: 21px;
+    margin: 0 3px;
 }
 
 .wi.wi-direction-up {

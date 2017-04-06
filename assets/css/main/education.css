@@ -43,7 +43,7 @@
 
 .edu-achievement {
     margin: 8px 0 0 0;
-    padding-left: 60px;
+    padding-left: 56px;
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
     display: flex;
@@ -52,7 +52,7 @@
 
 .edu-achievement span {
     font-size: 15px;
-    color: #d9a10f;
+    /*color: #d9a10f;*/
 }
 
 .edu-achievement ul {
@@ -70,7 +70,7 @@
 
 .edu-course {
     margin: 8px 0 0 0;
-    padding-left: 60px;
+    padding-left: 56px;
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
     display: flex;
@@ -79,7 +79,7 @@
 
 .edu-course span {
     font-size: 15px;
-    color: #d9a10f;
+    /*color: #d9a10f;*/
 }
 
 .course-wrap {
@@ -108,10 +108,10 @@
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    bottom: -33px;
-    right: -261px;
+    bottom: -29px;
+    right: -87px;
     z-index: 1;
-    transform: translateX(-72px);
+    transform: translateX(-85px);
     transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
     height: 132px;
     width: 260px;
@@ -128,7 +128,7 @@
 
 .course-dropdown li:hover {
     background-color: rgba(255, 255, 255, 0.15);
-    border-radius: 5px;
+    border-radius: 3px;
     opacity: 0.7;
     transition: opacity 0.95s;
 }

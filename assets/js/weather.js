@@ -116,7 +116,7 @@ $(document).ready(function() {
             $('.forecast-summary').text(condition);
             $('.temp-l').text(low + '\xB0');
             $('.temp-h').text(high + '\xB0');
-            $('.temp-now').text(temp + '\xB0');
+            $('.temp-now').text(temp);
 
         } //end displayWeather
 
