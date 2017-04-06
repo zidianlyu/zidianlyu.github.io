@@ -1,9 +1,5 @@
 /*projects*/
 
-#work a {
-    width: 560px;
-}
-
 .project-category {
     margin: 0 0 10px 0;
 }
@@ -48,7 +44,7 @@
 }
 
 .project-bottom {
-    margin: 8px 0 0 40px;
+    margin: 8px 0 0 30px;
 }
 
 .project-detail {
