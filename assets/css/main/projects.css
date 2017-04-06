@@ -9,11 +9,10 @@
 }
 
 .project {
-    padding-bottom: 5px;
-    box-shadow: 0 0 2px;
-    border-radius: 19px;
-    padding: 16px;
-    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 16px 16px 16px 16px;
+    margin: 0 0 10px 0;
 }
 
 .project-icon {
