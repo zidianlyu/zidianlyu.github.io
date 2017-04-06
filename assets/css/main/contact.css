@@ -36,7 +36,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding: 14px 17px 12px 17px;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.35);

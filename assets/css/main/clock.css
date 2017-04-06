@@ -2,7 +2,7 @@
 
 .clock {
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.13);
+    background-color: rgba(0, 0, 0, 0.35);
     text-align: center;
     border-radius: 5px;
     width: 180px;
@@ -10,12 +10,12 @@
 }
 
 .clock p {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .clock-time {
     font-size: 22px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 84%;
     border-radius: 5px;
-    margin: 0 0 5px 0;
 }
