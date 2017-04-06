@@ -61,15 +61,19 @@
     text-align: center;
 }
 
-.contact-link {
-    height: 67px;
-    width: 67px;
-    color: #41a356;
-    background-color: rgba(255, 255, 255, 0.06);
+.homepage-contact-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 37px;
+    padding: 3px 10px 1px 14px;
     line-height: 123%;
-    padding: 0 10px 0 12px;
     font-size: 53px;
     margin: 0 8px;
+}
+
+.homepage-contact-link:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.24);
+    transition: background-color 0.8s;
 }
 
 .homepage-tag {

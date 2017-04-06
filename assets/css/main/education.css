@@ -117,16 +117,16 @@
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    top: -80px;
-    bottom: 0;
-    right: -202px;
+    bottom: -33px;
+    right: -261px;
     z-index: 1;
     transform: translateX(-72px);
     transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
-    height: 117px;
+    height: 132px;
+    width: 260px;
     overflow: scroll;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 4px 20px 4px 7px;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px 15px 10px 7px;
     border-radius: 4px;
 }
 
@@ -137,6 +137,7 @@
 
 .course-dropdown li:hover {
     background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
     opacity: 0.7;
     transition: opacity 0.95s;
 }
