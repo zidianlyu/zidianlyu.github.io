@@ -4,8 +4,8 @@
     background-color: rgba(0, 0, 0, 0.35);
     padding: 5px 8px;
     border-radius: 5px;
-    height: 130px;
-    width: 171px;
+    width: 30%;
+    overflow-x: scroll;
     display: inline-grid;
 }
 

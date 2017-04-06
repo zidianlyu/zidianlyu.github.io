@@ -3,11 +3,10 @@
 .forecast-weekly {
     background-color: rgba(0, 0, 0, 0.22);
     border-radius: 5px;
-    height: 130px;
-    width: 171px;
-    overflow: scroll;
     display: flex;
-    padding: 0 8px;
+    padding: 0 0 0 3px;
+    width: 30%;
+    overflow-x: scroll;
 }
 
 .temp-weekly {

@@ -7,7 +7,9 @@
 .function-bar {
     display: flex;
     justify-content: space-between;
-    overflow: scroll;
+    overflow-x: scroll;
+    width: auto;
+    margin: 0 0 10px 0;
 }
 
 .contact-picture {
