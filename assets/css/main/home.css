@@ -5,6 +5,7 @@
     align-items: flex-start;
     margin: 10px 0;
     position: fixed;
+    top: 0;
 }
 
 #header {
@@ -75,31 +76,25 @@
     padding: 0;
 }
 
+.homepage-tag li{
+  background: rgba(255, 255, 255, 0.1);
+  color: #41a356;
+  border-radius: 0;
+}
+
 .intro-tag {
-    background: rgba(255, 255, 255, 0.06);
-    color: #41a356;
-    border-radius: 0;
     padding: 0;
 }
 
 .projects-tag {
-    background: rgba(255, 255, 255, 0.06);
-    color: #41a356;
-    border-radius: 0;
     padding: 0;
 }
 
 .education-tag {
-    background: rgba(255, 255, 255, 0.06);
-    color: #41a356;
-    border-radius: 0;
     padding: 0 4px 0 10px;
 }
 
 .contact-tag {
-    background: rgba(255, 255, 255, 0.06);
-    color: #41a356;
-    border-radius: 0;
     padding: 0;
 }
 

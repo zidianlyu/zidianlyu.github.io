@@ -1,7 +1,11 @@
 /*skills*/
 
 #intro {
-    margin-top: 150px;
+    position: fixed;
+    top: 150px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .skills {
