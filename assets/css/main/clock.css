@@ -1,7 +1,7 @@
 /*clock*/
 
 .clock {
-    margin: 0 59px;
+    margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.13);
     text-align: center;
     border-radius: 5px;

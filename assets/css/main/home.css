@@ -1,18 +1,5 @@
 /*home*/
 
-.home-head {
-    display: flex;
-    align-items: flex-start;
-    margin: 10px 0;
-    position: fixed;
-    top: 0;
-}
-
-#header {
-    position: absolute;
-    top: 100px;
-}
-
 #main {
     overflow: scroll;
     margin: 0 0 50px 0;
@@ -80,10 +67,10 @@
     padding: 0;
 }
 
-.homepage-tag li{
-  background: rgba(255, 255, 255, 0.1);
-  color: #41a356;
-  border-radius: 0;
+.homepage-tag li {
+    background: rgba(255, 255, 255, 0.1);
+    color: #41a356;
+    border-radius: 0;
 }
 
 .intro-tag {
