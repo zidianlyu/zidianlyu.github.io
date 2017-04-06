@@ -124,7 +124,7 @@ $(document).ready(function() {
             let list = '<p class="day-name">' + day + '</p>';
             list += '<p class="day-icon wi wi-forecast-io-' + icon + '"></p>';
             // list += '<p class="day-cond">' + condition + '</p>';
-            list += '<p class="day-high">' + '<span class="wi wi-direction-up"></span>' + high + '°, ' + '<span class="wi wi-direction-down"></span>' + low + '°' + '</p>';
+            list += '<p class="day-temp">' + '<span class="wi wi-direction-up"></span>' + high + '°, ' + '<span class="wi wi-direction-down"></span>' + low + '°' + '</p>';
             $('#temp-weekly').append('<li class="day">' + list + '</li>');
 
         } // end display weekly weather

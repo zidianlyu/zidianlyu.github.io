@@ -67,18 +67,16 @@
 
 .temp-now {
     color: #e0bf63;
-    font-size: 21px;
+    font-size: 20px;
     margin: 0 3px;
 }
 
-.wi.wi-direction-up {
+.temp-h {
     color: #467e3d;
-    font-size: 25px;
-    vertical-align: middle;
+    font-size: 15px;
 }
 
-.wi.wi-direction-down {
+.temp-l {
     color: #7e543d;
-    font-size: 25px;
-    vertical-align: middle;
+    font-size: 15px;
 }
