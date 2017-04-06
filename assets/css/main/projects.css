@@ -8,6 +8,10 @@
     overflow-y: scroll;
 }
 
+.project-category {
+    margin: 0 0 10px 0;
+}
+
 .project {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
@@ -15,9 +19,11 @@
     margin: 0 0 10px 0;
 }
 
-.project-icon {
-    width: 55px;
-    border-radius: 7px;
+.project:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0.8;
+    transition: opacity 0.8s;
 }
 
 .project-top {
@@ -28,9 +34,13 @@
 
 .project-top img {
     display: inline-block;
+    width: 55px;
+    border-radius: 7px;
 }
 
 .project-top h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 21px;
     margin: 0;
     padding-left: 10px;
     display: inline-block;
@@ -45,47 +55,4 @@
 .project-bottom h4 {
     padding-left: 12px;
     font-size: 11px;
-}
-
-.work-demo-title {
-    font-family: 'Nunito', sans-serif;
-    font-size: 21px;
-}
-
-.eventboost-color {
-    color: #de6928;
-}
-
-.tfe-color {
-    color: #ffff0d;
-}
-
-.quipt-color {
-    color: #226eb5;
-}
-
-.work-demo-eventboost {}
-
-.work-demo {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 0 0;
-}
-
-.work-demo a {
-    box-shadow: 1px 2px 3px white;
-    padding: 7px 20px;
-}
-
-.work-demo a:hover {
-    color: #5c94bc;
-    transition: color 0.7s;
-}
-
-.work-demo a:active {
-    transform: translateY(2px);
-}
-
-.project-category a {
-    background-color: rgba(0, 0, 0, 0.4);
 }
