@@ -8,6 +8,10 @@
     overflow-y: scroll;
 }
 
+#work a {
+    width: 560px;
+}
+
 .project-category {
     margin: 0 0 10px 0;
 }
@@ -15,15 +19,14 @@
 .project {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    padding: 16px 16px 16px 16px;
+    padding: 16px 16px 24px 16px;
     margin: 0 0 10px 0;
     transition: background-color 0.7s;
 }
 
 .project:hover {
-    /*cursor: pointer;*/
-    /*background-color: rgba(255, 255, 255, 0.18);*/
-    /*transition: background-color 0.8s;*/
+    background-color: rgba(0, 0, 0, 0.45);
+    transition: background-color 0.8s;
 }
 
 .project h3 {
@@ -35,10 +38,9 @@
 }
 
 .project h4 {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 10px;
-    margin: 0;
-    text-align: center;
+    font-size: 12px;
+    text-transform: none;
+    margin: 0 0 10px 20px;
 }
 
 .project-top {
@@ -59,19 +61,26 @@
 
 .project-detail {
     display: flex;
-    align-items: baseline;
+    margin: 0 0 6px 0;
 }
 
 .project-detail ul {
+    background-color: rgba(255, 255, 255, 0.06);
     font-family: 'Varela Round', sans-serif;
+    color: #887438;
     font-size: 12px;
-    padding: 0 0 0 16px;
-    margin: 0 0 0 0;
+    padding: 4px 5px 2px 7px;
+    margin: 0 0 0 8px;
+    border-radius: 4px;
+    max-width: 393px;
 }
 
 .project-detail span {
-    font-size: 15px;
-    color: #41a356;
+    font-size: 30px;
+    color: #ddbc5b;
+    display: flex;
+    align-items: center;
+    height: 22px;
 }
 
 .project-font-emphasis {
