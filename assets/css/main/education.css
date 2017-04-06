@@ -111,12 +111,12 @@
     bottom: -33px;
     right: -28px;
     z-index: 1;
-    transform: translateY(100px);
+    transform: translateY(-100px);
     transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
     height: 180px;
     width: 260px;
     overflow: scroll;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.9);
     padding: 10px 15px 10px 7px;
     border-radius: 4px;
 }
