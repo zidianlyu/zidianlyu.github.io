@@ -5,8 +5,9 @@
 }
 
 .function-bar {
-  display: flex;
-  align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
 }
 
 .contact-picture {

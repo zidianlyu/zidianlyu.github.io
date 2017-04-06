@@ -48,7 +48,9 @@
 
 .forecast {
     font-family: 'Varela Round', sans-serif;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .forecast p {

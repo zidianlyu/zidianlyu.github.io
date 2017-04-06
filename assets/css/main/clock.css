@@ -3,19 +3,27 @@
 .clock {
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.35);
-    text-align: center;
     border-radius: 5px;
-    width: 180px;
-    padding: 7px 7px 7px 7px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .clock p {
     margin: 0 auto;
 }
 
+.clock-day {
+    /*width: 85%;*/
+    font-size: 90%;
+}
+
 .clock-time {
-    font-size: 22px;
+    text-align: center;
+    font-size: 105%;
+    padding: 0 10px;
     background-color: rgba(255, 255, 255, 0.06);
-    width: 84%;
+    /*width: 85%;*/
     border-radius: 5px;
 }
