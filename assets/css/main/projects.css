@@ -18,10 +18,10 @@
 
 .project {
     background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.8s;
     border-radius: 8px;
     padding: 16px 16px 24px 16px;
     margin: 0 0 10px 0;
-    transition: background-color 0.7s;
 }
 
 .project:hover {
