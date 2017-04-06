@@ -108,12 +108,12 @@
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    bottom: -29px;
-    right: -87px;
+    bottom: -33px;
+    right: -28px;
     z-index: 1;
-    transform: translateX(-85px);
+    transform: translateX(150px);
     transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
-    height: 132px;
+    height: 180px;
     width: 260px;
     overflow: scroll;
     background: rgba(0, 0, 0, 0.85);
