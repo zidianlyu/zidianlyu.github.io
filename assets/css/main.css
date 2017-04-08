@@ -9,12 +9,15 @@
 @import url('ripple.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css');
-@import url('https://fonts.googleapis.com/css?family=Nunito|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Varela+Round|Julius+Sans+One');
 
 /*font-family: 'Nunito', sans-serif;*/
 
 
 /*font-family: 'Varela Round', sans-serif;*/
+
+
+/*font-family: 'Julius Sans One', sans-serif;*/
 
 
 /* Reset */
@@ -1238,10 +1241,12 @@ body.is-loading #bg:before {
     letter-spacing: 0.2rem;
     font-size: 0.8rem;
     border-bottom: 0;
+    transition: background-color 0.8s;
 }
 
 #header nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.8s;
 }
 
 #header nav ul li a:active {

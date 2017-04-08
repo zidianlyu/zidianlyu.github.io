@@ -50,6 +50,7 @@
 
 .homepage-contact-link {
     background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.8s;
     border-radius: 37px;
     padding: 3px 10px 1px 14px;
     line-height: 123%;

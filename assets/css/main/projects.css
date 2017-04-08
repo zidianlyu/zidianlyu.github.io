@@ -13,7 +13,7 @@
 }
 
 .project:hover {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.55);
     transition: background-color 0.8s;
 }
 
@@ -26,9 +26,10 @@
 }
 
 .project h4 {
-    font-size: 12px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 11px;
     text-transform: none;
-    margin: 0 0 10px 20px;
+    margin: 0 0 9px 20px;
 }
 
 .project-top {

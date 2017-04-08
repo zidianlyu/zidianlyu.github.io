@@ -43,12 +43,13 @@
     padding: 14px 17px 12px 17px;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.35);
+    transition: background-color 0.8s;
 }
 
 .contact-container label:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.04);
-    transition: background-color 0.7s;
+    transition: background-color 0.8s;
 }
 
 .contact-container label span {

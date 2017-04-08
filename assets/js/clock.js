@@ -8,11 +8,3 @@ function update() {
 }
 
 setInterval(update, 1000);
-
-
-let url = "https://zidianlyu.herokuapp.com";
-let http = new XMLHttpRequest();
-
-setInterval(function(){
-  http.open('GET', url, false);
-}, 300000);
