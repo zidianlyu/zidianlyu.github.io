@@ -18,7 +18,7 @@
         <span class="temp-l"></span>
       </div>
       <p class="forecast-summary"></p>
-    </div><!-- end forcast -->
+    </div><!-- end forecast -->
   </div><!-- end weather -->
 
   <div id="clock" class="clock">
@@ -32,3 +32,41 @@
   </div><!-- end forecast weekly -->
 </div>
 <!-- end home head -->
+
+
+
+
+
+
+
+04-09-2017 saved
+
+<div id="weather" class="weather">
+  <nav class="temp-tick">
+    <button id="temp-c" disabled>C</button>
+    <span>↔︎</span>
+    <button id="temp-f">F</button>
+  </nav>
+
+  <div class="forecast-city"></div>
+
+  <div class="forecast">
+    <div class="forecast-daily">
+      <span class="forecast-icon"></span>
+      <!-- <span class="wi wi-direction-up"></span> -->
+      <span class="temp-h"></span>
+      <span class="temp-now"></span>
+      <!-- <span class="wi wi-direction-down"></span> -->
+      <span class="temp-l"></span>
+    </div>
+  </div>
+  <!-- end forcast -->
+</div>
+<!-- end weather -->
+
+
+<div class="forecast-weekly">
+  <ul class="temp-weekly" id="temp-weekly">
+  </ul>
+</div>
+<!-- end forecast weekly -->
