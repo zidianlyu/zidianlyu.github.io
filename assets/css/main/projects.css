@@ -55,7 +55,7 @@
 
 .project-detail ul {
     background-color: rgba(255, 255, 255, 0.06);
-    transition: background-color 0.8s;
+    transition: background-color 0.5s;
     font-family: 'Varela Round', sans-serif;
     color: #887438;
     font-size: 12px;
@@ -66,8 +66,8 @@
 }
 
 .project-detail ul:hover{
-  background-color: rgba(255, 255, 255, 0.16);
-  transition: background-color 0.8s;
+  background-color: rgba(255, 255, 255, 0.13);
+  transition: background-color 0.5s;
 }
 
 .project-detail span {
