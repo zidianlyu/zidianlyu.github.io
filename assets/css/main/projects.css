@@ -65,8 +65,8 @@
 }
 
 .project-detail span {
-    font-size: 30px;
-    /*color: #ddbc5b;*/
+    font-size: 20px;
+    opacity: 0.8;
     display: flex;
     align-items: center;
     height: 22px;
